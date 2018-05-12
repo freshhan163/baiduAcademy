@@ -1,0 +1,32 @@
+.name {
+    white-space: pre;
+}
+.mainTitle h3{
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #666,
+        3px 3px 8px black;
+}
+ul.titleList li {
+    /* background-image: url('./list.png');
+    background-repeat: no-repeat;
+    background-size: 20px; */
+}
+.titleList {
+    /* list-style: none; */
+    list-style: disc outside;
+}
+.contentList {
+    list-style: decimal outside;
+}
+.contentList li:last-child {
+    list-style-type: none;
+}
+.projectTitle {
+    font-weight: 700;
+}
+.education {
+    white-space: pre;
+}
+p.apparaisal {
+    text-indent: 30px;
+}

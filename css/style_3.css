@@ -1,0 +1,47 @@
+.resume {
+    width: 70%;
+    margin: 0 auto;
+}
+.leftContent {
+    height: 10%;
+    background-color: #858585;
+    padding: 5px 40px;
+}
+.rightContent {
+    height: 90%;
+}
+.rightContent section {
+    overflow: auto;
+    border-bottom: 1px solid #d6d6d6;
+    zoom: 1;
+    overflow: hidden;
+}
+.rightContent section .mainTitle {
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-bottom: -3000px;
+    padding-bottom: 3000px;
+    background-color: #d6d6d6;
+    border-top: 2px solid white;
+}
+.rightContent section .mainContent,.titleList {
+    float: right;
+    width: 80%;
+    background-color: white;
+    padding-left: 30px;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    display: block;
+    content: ".";
+    visibility: hidden;
+    clear: both;
+    height: 0;
+}
+
+.titleList {
+    margin: 0;
+}
