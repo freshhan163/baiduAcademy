@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T08:10:26.671Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="eTFpe-XpVLkWVBKPJ6ki" version="15.6.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-08T08:21:17.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="8-R2KG924zNS7KxyR2Aj" version="15.6.8" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1298" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F4F1DE" math="0" shadow="0">
       <root>
@@ -147,8 +147,8 @@
         <mxCell id="UXwH12U0V8vb7j7wDYNW-47" value="clientDevBuild添加DevMiddleware | HotMiddleware中间件" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="UXwH12U0V8vb7j7wDYNW-42" vertex="1">
           <mxGeometry x="97.5" y="320" width="325" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UXwH12U0V8vb7j7wDYNW-48" value="curDevBuild.clientCompiler调用插件done()完成客户端构建&lt;br&gt;添加onRenderUpdate()监听" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="UXwH12U0V8vb7j7wDYNW-42" vertex="1">
-          <mxGeometry x="97.5" y="390" width="325" height="50" as="geometry" />
+        <mxCell id="UXwH12U0V8vb7j7wDYNW-48" value="curDevBuild.clientCompiler调用钩子done()：&lt;br&gt;添加onRenderUpdate()监听&lt;br&gt;（钩子done在整个compilation完成时执行）" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="UXwH12U0V8vb7j7wDYNW-42" vertex="1">
+          <mxGeometry x="97.5" y="380" width="325" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UXwH12U0V8vb7j7wDYNW-55" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#393C56;strokeColor=#E07A5F;fillColor=#F2CC8F;" parent="UXwH12U0V8vb7j7wDYNW-42" source="UXwH12U0V8vb7j7wDYNW-46" target="UXwH12U0V8vb7j7wDYNW-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
